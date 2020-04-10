@@ -1,0 +1,63 @@
+@font-face{
+  font-family: gameFont;
+  src: url(../assets/PressStart2P-Regular.ttf);
+}
+
+body{
+	background-color: #ebebeb;
+  font-family: gameFont;
+  margin: auto;
+  display: block;
+  width: 960px;
+}
+
+#logo{
+  margin: auto;
+  display: block;
+}
+
+header{
+  margin: auto;
+  display: block;
+}
+
+nav{
+  margin: auto;
+  display: block;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: -8px;
+  padding-top: 10px;
+  width: 320px;
+}
+
+nav ul li:first-child{
+  margin-left: 0;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #141414
+}
+
+nav ul li a:hover{
+  cursor: grab;
+}
+
+canvas{
+	display: block;
+	margin: auto;
+}
+
+p{
+  font-size: 12px;
+}
